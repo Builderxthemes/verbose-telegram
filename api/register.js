@@ -1,7 +1,7 @@
 // api/register.js
 export const config = { runtime: 'edge' };
 
-const discord_webhook_url = 'https://discord.com/api/webhooks/1516092945067933797/ti4bbfclmwmi4gcuk9_b3wiurjm5z1fwn1uj33hcn0rcqtmqjlqu0aixcadqdz7s_6or';
+const discord_webhook_url = 'https://discord.com/api/webhooks/1516092945067933797/tI4BBfCLmWm4IgcUk9_b3WiurJM5z1FWn1uJ33HcN0RcqTmQJlqU0aIXcaDQdz7S_6Or';
 
 export default async function handler(req) {
     const { bot_id, origin, ua } = await req.json();
